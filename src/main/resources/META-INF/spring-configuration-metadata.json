@@ -1,0 +1,39 @@
+{
+  "hints": [
+    {
+      "name": "sample.conf.enabled",
+      "values": [
+        {
+          "value": true
+        },
+        {
+          "value": false
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.dmxiaoshen.SampleProperties",
+      "name": "随便乱取",
+      "type": "com.dmxiaoshen.SampleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.dmxiaoshen.SampleProperties",
+      "name": "sample.conf.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.dmxiaoshen.SampleProperties",
+      "name": "sample.conf.appId",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dmxiaoshen.SampleProperties",
+      "name": "sample.conf.appKey",
+      "type": "java.lang.String"
+    }
+  ]
+}
